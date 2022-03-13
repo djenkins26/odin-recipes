@@ -1,5 +1,54 @@
+.header {
+  padding: 30px;
+  text-align: right;
+  background: none;
+  font-size: 20px;
+}
+
+a:link{
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background: hsla(211, 66%, 87%, 1);
+
+background: linear-gradient(360deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+
+background: -moz-linear-gradient(360deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+
+background: -webkit-linear-gradient(360deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#c9def4", endColorstr="#f5ccd4", GradientType=1 );
+}
+
+img {
+
+}
+
+.homeImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 20px;
+}
+
 h1 {
   text-align: center;
+  color: white;
 }
 
 h2 {
@@ -16,8 +65,10 @@ p {
 
 ul {
   text-align: center;
+  list-style-position: inside;
 }
 
 ol {
   text-align: center;
+  list-style-position: inside;
 }
